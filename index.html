@@ -9,12 +9,12 @@
 
     <!-- Note there is no responsive meta tag here -->
 
-    <link rel="icon" href="../../favicon.ico">
+    <link rel="icon" href="logo.png">
 
     <title>Tuitaa</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
@@ -25,6 +25,39 @@
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <script src="js/ie-emulation-modes-warning.js"></script>
+  <style type="text/css">
+          #contenedor {
+      }
+      #cabecera {
+      }
+      #menu {
+        float: left;
+        width: 25%;
+        margin: 10px;
+        background-color: white;
+      }
+      #contenido {
+        float: left;
+        width: 73%;
+      }
+      #contenido #principal {
+        float: left;
+        width: 65%;
+        margin: 10px;
+        background-color: white;
+      }
+      #contenido #secundario {
+        float: left;
+         width: 30%;
+         margin: 10px;
+         background-color: white;
+      }
+       
+      #pie {
+        clear: both;
+        background-color: white;
+      }
+  </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,17 +69,17 @@
   <body style="background-color: #f5f8fa">
 
     <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: white">
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: white;height: 55px;">
       <div class="container" style="margin-right: 50px;margin-left: 50px;width: 90%;">
        
         <!-- Note that the .navbar-collapse and .collapse classes have been removed from the #navbar -->
         <div id="navbar">
-          <ul class="nav navbar-nav">
+          <ul class="nav navbar-nav" >
             <li class="active"><a href="#" style="font: oblique bold 120% cursive;"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Inicio</a></li>
             <li><a href="#about" style="font: oblique bold 120% cursive;"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span> Notificaciones</a></li>
             <li><a href="#contact" style="font: oblique bold 120% cursive;"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Mensajes</a></li>
           </ul>
-          <ul>
+          <ul style="margin-bottom: 0px;">
             <img src="logo.png" style="background-color: black; float: left; width: 40px;height: 40px;margin: 8px;    margin-left: 160px;" class="img-responsive">
           </ul>
           
@@ -64,11 +97,347 @@
       </div>
     </nav>
 
-    <div class="container">
-
+   <div class="container text-center" style="width: 1200px;">    
+  <div class="row">
+    <div class="col-sm-3 ">
+      <div class="well">
+      <div class="card">
+            <div class="card-header">
+                <div class="card-header-menu">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <div class="card-header-headshot"></div>
+            </div>
+            <div class="card-content">
+                <div class="card-content-member">
+                    <h4 class="m-t-0">Naeem Khan</h4>
+                    <p class="m-0"><i class="pe-7s-map-marker"></i>Bangladesh</p>
+                </div>
+                <div >
+                <div class="card-footer-stats" style="display: -webkit-box;">
+                    <div>
+                        <p>Tuis:</p><i class="fa fa-users"></i><span>241</span>
+                    </div>
+                    <div>
+                        <p>Siguiendo:</p><i class="fa fa-coffee"></i><span>350</span>
+                    </div>
+                    <div>
+                        <p>Seguidores:</p><span class="stats-small">3</span>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            
+        </div>
+      </div>
+        
+      <div class="well">
+        <p><a href="#">tendencia</a></p>
+        <p>
+          <span class="label label-default">News</span>
+          <span class="label label-primary">W3Schools</span>
+          <span class="label label-success">Labels</span>
+          <span class="label label-info">Football</span>
+          <span class="label label-warning">Gaming</span>
+          <span class="label label-danger">Friends</span>
+        </p>
+      </div>
+    </div>
+    <div class="col-sm-7" style="width: 50%;">
+    
+      
+        
+        <div class="row">
+            
+            <div class="col-sm-12">
+                <div class="panel panel-white post">
+                    <div class="post-heading">
+                        <div class="pull-left image">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="img-circle avatar" alt="user profile image">
+                        </div>
+                        <div class="pull-left meta">
+                            <div class="title h5">
+                                <a href="#"><b>John Doe</b></a>
+                                uploaded a photo.
+                            </div>
+                            <h6 class="text-muted time">5 seconds ago</h6>
+                        </div>
+                    </div>
+                    <div class="post-image">
+                        <img src=""><img src="https://lorempixel.com/400/200/nature/5" class="image" alt="image post">
+                    </div>
+                    <div class="post-description">
+                        <h4>Product Shoot</h4>
+                        <p>Here is a picture of the walkway to our product shoot.</p>
+                        <div class="stats">
+                            <a href="javascript:void(0);" class="btn btn-default stat-item">
+                                <i class="fa fa-thumbs-up icon"></i>228
+                            </a>
+                            <a href="javascript:void(0);" class="btn btn-default stat-item">
+                                <i class="fa fa-share icon"></i>128
+                            </a>
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="input-group"> 
+                            <input class="form-control" placeholder="Add a comment" type="text">
+                            <span class="input-group-addon">
+                                <a href="javascript:void(0);"><i class="fa fa-edit"></i></a>  
+                            </span>
+                        </div>
+                        <ul class="comments-list">
+                            <li class="comment">
+                                <a class="pull-left" href="javascript:void(0);">
+                                    <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="avatar">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="comment-heading">
+                                        <h4 class="user">John dOE</h4>
+                                        <h5 class="time">7 minutes ago</h5>
+                                    </div>
+                                    <p>I really love this picture. I really wish i could have been there.</p>
+                                </div>
+                            </li>
+                            <li class="comment">
+                                <a class="pull-left" href="javascript:void(0);">
+                                    <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar2.png" alt="avatar">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="comment-heading">
+                                        <h4 class="user">John Doe</h4>
+                                        <h5 class="time">3 minutes ago</h5>
+                                    </div>
+                                    <p>I think I might you this for one of my projects.</p>
+                                </div>
+                            </li>
+                            <li class="comment">
+                                <a class="pull-left" href="javascript:void(0);">
+                                    <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="avatar">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="comment-heading">
+                                        <h4 class="user">John Doe</h4>
+                                        <h5 class="time">10 seconds ago</h5>
+                                    </div>
+                                    <p>Wow! This is gorgeous.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-12">
+                <div class="panel panel-white post">
+                    <div class="post-heading">
+                        <div class="pull-left image">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="img-circle avatar" alt="user profile image">
+                        </div>
+                        <div class="pull-left meta">
+                            <div class="title h5">
+                                <a href="#"><b>John Doe</b></a>
+                                made a post.
+                            </div>
+                            <h6 class="text-muted time">1 minute ago</h6>
+                        </div>
+                    </div> 
+                    <div class="post-description"> 
+                        <p>Anyone who is interested in helping out with the Mark &amp; Markson dinner party, please let me know before the week is over.</p>
+                        <div class="stats">
+                            <a href="javascript:void(0);" class="btn btn-default stat-item">
+                                <i class="fa fa-thumbs-up icon"></i>2
+                            </a>
+                            <a href="javascript:void(0);" class="btn btn-default stat-item">
+                                <i class="fa fa-share icon"></i>12
+                            </a>
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="input-group"> 
+                            <input class="form-control" placeholder="Add a comment" type="text">
+                            <span class="input-group-addon">
+                                <a href="javascript:void(0);"><i class="fa fa-edit"></i></a>  
+                            </span>
+                        </div>
+                        <ul class="comments-list">
+                            <li class="comment">
+                                <a class="pull-left" href="javascript:void(0);">
+                                    <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="avatar">
+                                </a>
+                                <div class="comment-body">
+                                    <div class="comment-heading">
+                                        <h4 class="user">Gavino Free</h4>
+                                        <h5 class="time">5 minutes ago</h5>
+                                    </div>
+                                    <p>Sure, I'd help out.</p>
+                                </div>
+                                <ul class="comments-list">
+                                    <li class="comment">
+                                        <a class="pull-left" href="javascript:void(0);">
+                                            <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar4.png" alt="avatar">
+                                        </a>
+                                        <div class="comment-body">
+                                            <div class="comment-heading">
+                                                <h4 class="user">John Doe</h4>
+                                                <h5 class="time">3 minutes ago</h5>
+                                            </div>
+                                            <p>I will email you the details.</p>
+                                        </div>
+                                    </li> 
+                                    <li class="comment">
+                                        <a class="pull-left" href="javascript:void(0);">
+                                            <img class="avatar" src="https://bootdey.com/img/Content/avatar/avatar5.png" alt="avatar">
+                                        </a>
+                                        <div class="comment-body">
+                                            <div class="comment-heading">
+                                                <h4 class="user">John Doe</h4>
+                                                <h5 class="time">3 minutes ago</h5>
+                                            </div>
+                                            <p>Ok, cool.</p>
+                                        </div>
+                                    </li> 
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+             
+            <div class="col-sm-12">
+                <div class="panel panel-white post">
+                    <div class="post-heading">
+                        <div class="pull-left image">
+                            <img src="https://bootdey.com/img/Content/avatar/avatar5.png" class="img-circle avatar" alt="user profile image">
+                        </div>
+                        <div class="pull-left meta">
+                            <div class="title h5">
+                                <a href="#"><b>Yanique Robinson</b></a>
+                                shared a video.
+                            </div>
+                            <h6 class="text-muted time">1 minute ago</h6>
+                        </div>
+                    </div> 
+                    <div class="post-video">
+                        <div class="fluid-width-video-wrapper" style="padding-top: 56.2%;"><iframe src="https://player.vimeo.com/video/98417189" id="fitvid369523"></iframe></div>
+                    </div>
+                    <div class="post-description">  
+                        <div class="stats">
+                            <a href="javascript:void(0);" class="btn btn-default stat-item">
+                                <i class="fa fa-thumbs-up icon"></i>2
+                            </a>
+                            <a href="javascript:void(0);" class="btn btn-default stat-item">
+                                <i class="fa fa-share icon"></i>12
+                            </a>
+                        </div>
+                    </div>
+                    <div class="post-footer">
+                        <div class="input-group"> 
+                            <input class="form-control" placeholder="Add a comment" type="text">
+                            <span class="input-group-addon">
+                                <a href="javascript:void(0);"><i class="fa fa-edit"></i></a> 
+                            </span>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    
      
+    </div>
+    <div class="col-sm-2 well" style="width: 300px;">
+      <div class="row bootstrap snippet">
+    
+      <div class="panel" id="followers">
+        <div class="panel-heading">
+          <h3 class="panel-title">
+            <i class="icon md-check" aria-hidden="true"></i> Followers
+          </h3>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group list-group-dividered list-group-full">
+            <li class="list-group-item">
+              <div class="media">
+                <div class="media-left">
+                  <a class="avatar avatar-online" href="javascript:void(0)">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                    <i></i>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <div class="pull-right">
+                    <button type="button" class="btn btn-info btn-sm waves-effect waves-light">Follow</button>
+                  </div>
+                  <div><a class="name" href="javascript:void(0)">Willard Wood</a></div>
+                  <small>@heavybutterfly920</small>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="media">
+                <div class="media-left">
+                  <a class="avatar avatar-away" href="javascript:void(0)">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                    <i></i>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <div class="pull-right">
+                    <button type="button" class="btn btn-success btn-default btn-sm waves-effect waves-light"><i class="icon md-check" aria-hidden="true"></i>Following</button>
+                  </div>
+                  <div><a class="name" href="javascript:void(0)">Ronnie Ellis</a></div>
+                  <small>@kingronnie24</small>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="media">
+                <div class="media-left">
+                  <a class="avatar avatar-busy" href="javascript:void(0)">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                    <i></i>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <div class="pull-right">
+                    <button type="button" class="btn btn-info btn-sm waves-effect waves-light">Follow</button>
+                  </div>
+                  <div><a class="name" href="javascript:void(0)">Gwendolyn Wheeler</a></div>
+                  <small>@perttygirl66</small>
+                </div>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <div class="media">
+                <div class="media-left">
+                  <a class="avatar avatar-off" href="javascript:void(0)">
+                    <img src="https://bootdey.com/img/Content/avatar/avatar1.png" alt="">
+                    <i></i>
+                  </a>
+                </div>
+                <div class="media-body">
+                  <div class="pull-right">
+                    <button type="button" class="btn btn-info btn-sm waves-effect waves-light">Follow</button>
+                  </div>
+                  <div><a class="name" href="javascript:void(0)">Daniel Russell</a></div>
+                  <small>@danieltiger08</small>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-    </div> <!-- /container -->
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer><!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
